@@ -1,0 +1,21 @@
+{
+    "name": "journal-submission",
+    "version": "1.0.0",
+    "description": "A research journal paper submission system using Node.js, Express, MySQL, and Bootstrap.",
+    "main": "server.js",
+    "scripts": {
+        "start": "node server.js",
+        "dev": "nodemon server.js"
+    },
+    "author": "Your Name",
+    "license": "MIT",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "express": "^4.21.2",
+        "multer": "^1.4.4",
+        "mysql2": "^3.14.1"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.10"
+    }
+}
